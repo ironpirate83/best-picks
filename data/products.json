@@ -1,0 +1,163 @@
+{
+  "siteName": "Best Picks",
+  "checked": "October 31, 2026",
+  "categories": [
+    {
+      "slug": "home-kitchen",
+      "name": "Home & Kitchen",
+      "summary": "Cookware and a few tools that serious kitchen roundups keep coming back to.",
+      "intro": "A short kitchen shelf: two Lodge pots, a straightforward multi-cooker, and the hand tools that earn a drawer. Nothing here is a gadget for its own sake.",
+      "products": [
+        {
+          "brand": "Lodge",
+          "name": "Pre-Seasoned Cast Iron Skillet, 10.25 Inches",
+          "asin": "B00006JSUA",
+          "blurb": "The 10.25-inch Lodge is the plain pre-seasoned skillet people actually cook in: it sears, it goes in the oven, and it is happy over a campfire. It is heavy, it wants a little fat in the pan, and the seasoning improves if you keep using it.",
+          "note": "Classic Lodge L8SK3. Large long-running owner record. Sold by Amazon and in stock when checked."
+        },
+        {
+          "brand": "Lodge",
+          "name": "Essential Enamel Cast Iron Dutch Oven, 6 Quart, Lagoon",
+          "asin": "B013FDOXJC",
+          "blurb": "Wirecutter has kept a Lodge 6-quart enameled Dutch oven as its top braiser for years, and the enamel lets you cook tomato sauce without maintaining bare iron. This page is the Lagoon color of that pot.",
+          "note": "Wirecutter top-pick Dutch oven since 2015; still listed as the top pick in later Wirecutter kitchen roundups. Lagoon color was in stock when checked."
+        },
+        {
+          "brand": "Instant Pot",
+          "name": "Rio 6-Quart 7-in-1 Electric Pressure Cooker",
+          "asin": "B0B4PQDFCL",
+          "blurb": "Wirecutter's current multi-cooker pick is the Instant Pot Rio in the 6-quart size: pressure, slow cook, sauté, steam, rice, yogurt, and keep-warm. It is the straightforward model, and the inner pot and lid go in the dishwasher.",
+          "note": "Wirecutter electric pressure cooker pick, updated February 2026. Black 6-quart, in stock, sold by Amazon when checked."
+        },
+        {
+          "brand": "OXO",
+          "name": "Good Grips Swivel Peeler",
+          "asin": "B00004OCIP",
+          "blurb": "The OXO swivel peeler is the small tool that keeps winning kitchen roundups: a soft handle, twin blades that follow a curve, and a tip for digging out potato eyes. It is the peeler you stop replacing.",
+          "note": "Long-running OXO Good Grips swivel peeler listing with a very large owner record. In stock when checked."
+        },
+        {
+          "brand": "Victorinox",
+          "name": "Fibrox Pro Chef's Knife, 8 Inch",
+          "asin": "B000638D32",
+          "blurb": "The Fibrox 8-inch is a long-running best-buy chef's knife: it arrives sharp, and the handle stays put when your hand is wet. Wash it by hand if you want that edge to last.",
+          "note": "Victorinox Fibrox Pro 8-inch, Swiss-made working knife. In stock when checked. Not claimed as any one outlet's 2026 top pick."
+        },
+        {
+          "brand": "Microplane",
+          "name": "Premium Classic Series Zester, Black",
+          "asin": "B00151WA06",
+          "blurb": "The long Microplane zester is the one people buy for lemon zest and then use on Parmesan, garlic, ginger, and nutmeg. The etched blade makes fine shreds instead of the wet pulp a box grater leaves behind.",
+          "note": "Microplane Premium Classic 46020. Very large owner record. In stock when checked."
+        },
+        {
+          "brand": "OXO",
+          "name": "Good Grips Salad Spinner, 6.22 Quart",
+          "asin": "B00004OCKR",
+          "blurb": "OXO's pump salad spinner is the large one that has owned this category: one hand on the button, a brake so the basket stops, and a bowl big enough to serve from. Dry leaves are the point, because dressing slides off wet lettuce.",
+          "note": "OXO Good Grips large salad spinner, a long-running category leader. In stock when checked."
+        }
+      ]
+    },
+    {
+      "slug": "outdoor-lake",
+      "name": "Outdoor & Lake",
+      "summary": "A vest you will actually wear, a dry bag, and the rest of a lake or camp day.",
+      "intro": "Boating, a paddle, and a night on shore. Confirm the size, the Coast Guard label, and the tent capacity on the product page before you trust any of this on the water.",
+      "products": [
+        {
+          "brand": "Onyx",
+          "name": "MoveVent Dynamic Paddle Vest",
+          "asin": "B00FI3FAZ4",
+          "blurb": "The MoveVent is the paddling vest lake-day lists keep naming, with mesh that clears a kayak seat and U.S. Coast Guard approval. This page is one size and color of a Type III vest, so match the chest chart, and do not use it for high-speed towing.",
+          "note": "USCG and Transport Canada approved MoveVent Dynamic. In stock when checked. Specific size and color are on the listing."
+        },
+        {
+          "brand": "Earth Pak",
+          "name": "20L Waterproof Dry Bag",
+          "asin": "B01GZCUDC6",
+          "blurb": "Wirecutter included this Earth Pak 20-liter roll-top among its dry bags: thick 500D material, a shoulder strap, and a phone case in the box. Roll the mouth down at least three times; it is for spray and a splash, not for diving.",
+          "note": "Earth Pak roll-top. Amazon listing cites a 2024 Wirecutter dry-bag mention. In stock when checked."
+        },
+        {
+          "brand": "OutdoorMaster",
+          "name": "Shark 2 High-Pressure SUP Pump",
+          "asin": "B0819RTT4P",
+          "blurb": "The Shark 2 is the 12-volt pump a lot of inflatable-board owners switch to after the hand pump wears them out, and it shuts off at the pressure you set. It plugs into a car outlet and it is loud, so run it in the parking lot.",
+          "note": "OutdoorMaster Shark 2 / OP20, 20 PSI, 12V DC. Widely reviewed by paddle-board testers. In stock when checked."
+        },
+        {
+          "brand": "Black Diamond",
+          "name": "Spot 400 Headlamp",
+          "asin": "B09NQK1TWR",
+          "blurb": "The Spot 400 is Black Diamond's compact camp headlamp, with a white beam, a red night mode, and a waterproof body that runs on the AAA cells in the box. Pack spare batteries for anything longer than a weekend.",
+          "note": "Spot 400, Octane color. IPX8 per the listing. In stock, limited quantity, when checked."
+        },
+        {
+          "brand": "Coleman",
+          "name": "Sundome Camping Tent",
+          "asin": "B0D7QHY574",
+          "blurb": "The Sundome is Coleman's basic dome for a first campsite or a festival field: a rainfly, windows, and pole sleeves that do not fight you. The listing covers more than one capacity, so confirm the person count, and treat it as fair-weather shelter rather than a four-season tent.",
+          "note": "Coleman Sundome family listing with size options. In stock when checked. Blurb tells the buyer to confirm capacity."
+        },
+        {
+          "brand": "RTIC",
+          "name": "30-Can Ultra-Tough Soft Cooler, Black",
+          "asin": "B08P9VJPJK",
+          "blurb": "RTIC's 30-can soft cooler is the lake bag that is built to float and zip shut, so a tippy canoe does not automatically donate lunch to the water. It is easier to carry down a dock than a hard cooler, and it is not a week-long ice bunker.",
+          "note": "RTIC Ultra-Tough 30-can, black, in stock when checked. Leakproof zipper and float are listing claims, not a timed ice test by this site."
+        }
+      ]
+    },
+    {
+      "slug": "racing-gear",
+      "name": "Racing Gear",
+      "summary": "A scanner and hearing protection for the grandstand, plus the garage tools that hold the car up.",
+      "intro": "NASCAR weekend gear and the motorsport-adjacent stuff that lives in the garage: a way to hear the teams, a way to keep your hearing, a small Formula 1 build, and the jack, stands, and wrench for work at home.",
+      "products": [
+        {
+          "brand": "Uniden",
+          "name": "Bearcat BC125AT Handheld Scanner",
+          "asin": "B00772MR0K",
+          "blurb": "The BC125AT is the handheld scanner fans program for a race weekend: 500 named channels, a racing search, and Close Call for a nearby transmitter. It is analog only, so you still need that event's frequency list, and it will not decode digital public-safety systems.",
+          "note": "Uniden BC125AT, a long-running racing and analog scanner, in stock when checked. Analog limitation is stated on the listing."
+        },
+        {
+          "brand": "Howard Leight",
+          "name": "Impact Sport Sound Amplification Earmuffs, Real Blue",
+          "asin": "B071JB9HFF",
+          "blurb": "A short track will ring your ears if you stand there unprotected. The Impact Sport muffs clamp the peaks and let you turn conversation, or a scanner cable, back up to a level you can hear, and this page is the Real Blue pair.",
+          "note": "Howard Leight by Honeywell Impact Sport, Real Blue. Very large owner record. In stock when checked."
+        },
+        {
+          "brand": "LEGO",
+          "name": "Speed Champions Oracle Red Bull Racing RB20 (77243)",
+          "asin": "B0DHLFGNMM",
+          "blurb": "Set 77243 is LEGO's adult build of the 2024 Oracle Red Bull RB20: halo, rear wing, a driver minifigure, and 251 pieces. It is a shelf model for a motorsport fan, not a car that drives.",
+          "note": "LEGO Speed Champions 77243. Strong recent owner record and a best-seller in fan vehicles when researched. In stock when checked."
+        },
+        {
+          "brand": "BIG RED",
+          "name": "3-Ton Hydraulic Floor Jack, Tall Saddle",
+          "asin": "B0028JW4PU",
+          "blurb": "This tall-saddle 3-ton BIG RED jack is aimed at SUVs and trucks, with a bypass meant to stop a lift past its rating. A jack raises the vehicle and does not hold it, so the car still needs stands on level ground.",
+          "note": "BIG RED / Torin T83006-style trolley jack for taller vehicles. In stock when checked. Model name on the live title emphasizes the extra saddle and SUV/truck fit."
+        },
+        {
+          "brand": "EPAuto",
+          "name": "1/2-Inch Drive Click Torque Wrench, 10–150 ft-lb",
+          "asin": "B01M1D17AW",
+          "blurb": "This 1/2-inch click wrench is what home garages use when lug nuts have a real number: set the scale, pull smoothly, and stop when it clicks. Store it at the lowest setting so the spring is not left loaded.",
+          "note": "EPAuto 1/2-inch 10-150 ft-lb click wrench. Very large owner record. In stock when checked."
+        },
+        {
+          "brand": "BIG RED",
+          "name": "T43202 3-Ton Steel Jack Stands, Pair",
+          "asin": "B01LVYW116",
+          "blurb": "These 3-ton steel stands are what you put under a car after the jack has lifted it, sold as a pair with a ratchet column. The listing says they are not for SUVs and trucks, so match them to the vehicle and use them on level ground at a rated lift point.",
+          "note": "BIG RED T43202 pair. Large owner record. In stock when checked. Listing excludes SUVs and trucks; the blurb says so."
+        }
+      ]
+    }
+  ]
+}
