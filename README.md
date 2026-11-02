@@ -1,6 +1,6 @@
 # Best Picks
 
-A small static Amazon Associates catalog: Home & Kitchen, Outdoor & Lake, and Racing Gear. Plain HTML and CSS, generated from one product file.
+A NASCAR-first Amazon Associates catalog for a link in bio, with kitchen and lake shelves underneath. Plain HTML and CSS, generated from one product file.
 
 ## Preview locally
 

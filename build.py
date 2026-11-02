@@ -29,9 +29,13 @@ PRICE_OR_SCORE_RE = re.compile(
 SITE_ORIGIN = "https://ironpirate83.github.io/best-picks"
 
 ICONS = {
+    "scanners": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="8" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 14h6M11 18h4M20 13v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>""",
+    "diecast": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 18h20l-2-5H10L6 18z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 18v3h20v-3M10 21v2M22 21v2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>""",
+    "fan-gear": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 5v22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 6h14l-2.2 4 2.2 4H8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>""",
+    "dashcams": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="11" width="16" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M21 15l6-3v9l-6-3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>""",
+    "creator-gear": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><rect x="13" y="6" width="6" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 14a6 6 0 0 0 12 0M16 20v4M12 26h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>""",
     "home-kitchen": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 13h16v10a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4V13z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 13V10a4 4 0 0 1 8 0v3M6 16h2M24 16h2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>""",
     "outdoor-lake": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><circle cx="22" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 20c2.5-2 4.5-2 7 0s4.5 2 7 0 4.5-2 7 0M4 25c2.5-2 4.5-2 7 0s4.5 2 7 0 4.5-2 7 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>""",
-    "racing-gear": """<svg class="icon" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 5v22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 6h14l-2.2 4 2.2 4H8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>""",
 }
 
 
@@ -47,6 +51,7 @@ def esc(value: str) -> str:
 def split_sentences(text: str) -> list[str]:
     """Split on sentence punctuation without breaking decimals or initials."""
     protected = re.sub(r"(\d)\.(\d)", rf"\1{DOT}\2", text.strip())
+    protected = re.sub(r"\b(?:No|Mr|Mrs|Ms|Dr|vs)\.", lambda m: m.group(0).replace(".", DOT), protected)
     protected = re.sub(r"\b([A-Z])\.", rf"\1{DOT}", protected)
     parts = SENTENCE_RE.findall(protected)
     restored = [part.replace(DOT, ".") for part in parts]
@@ -77,7 +82,7 @@ def validate(data: dict, tag: str) -> None:
     if data.get("siteName") != "Best Picks":
         fail("siteName must be Best Picks")
     categories = data.get("categories")
-    if not isinstance(categories, list) or not 1 <= len(categories) <= 6:
+    if not isinstance(categories, list) or not 1 <= len(categories) <= 8:
         fail("categories must be a short list")
     seen: set[str] = set()
     for category in categories:
@@ -85,8 +90,10 @@ def validate(data: dict, tag: str) -> None:
         if slug not in ICONS:
             fail(f"unknown category slug {slug!r}")
         products = category.get("products")
-        if not isinstance(products, list) or not 6 <= len(products) <= 8:
-            fail(f"{slug} needs 6 to 8 products")
+        if category.get("group") not in ("primary", "secondary"):
+            fail(f"{slug} needs a primary or secondary group")
+        if not isinstance(products, list) or not 4 <= len(products) <= 8:
+            fail(f"{slug} needs 4 to 8 products")
         for field in ("name", "summary", "intro"):
             if not str(category.get(field, "")).strip():
                 fail(f"{slug} is missing {field}")
@@ -116,7 +123,9 @@ def nav(current: str | None, categories: list[dict], prefix: str) -> str:
     for category in categories:
         href = f"{prefix}{category['slug']}/"
         current_attr = ' aria-current="page"' if category["slug"] == current else ""
-        items.append(f'<li><a href="{esc(href)}"{current_attr}>{esc(category["name"])}</a></li>')
+        label = category.get("navLabel") or category["name"]
+        extra = ' class="nav-more"' if category.get("group") == "secondary" else ""
+        items.append(f'<li><a href="{esc(href)}"{current_attr}{extra}>{esc(label)}</a></li>')
     return "<nav aria-label=\"Categories\"><ul>" + "".join(items) + "</ul></nav>"
 
 
@@ -160,17 +169,13 @@ def shell(title: str, description: str, canonical: str, prefix: str, body_attr: 
 """
 
 
-def render_home(data: dict, tag: str) -> str:
-    categories = data["categories"]
-    shelves = []
-    for category in categories:
-        names = []
-        for product in category["products"]:
-            href = f"{category['slug']}/#{product['asin']}"
-            names.append(f'<li><a href="{esc(href)}">{esc(product["name"])}</a></li>')
-        count = len(category["products"])
-        shelves.append(
-            f"""<li class="shelf" data-cat="{esc(category['slug'])}">
+def shelf_html(category: dict) -> str:
+    names = []
+    for product in category["products"]:
+        href = f"{category['slug']}/#{product['asin']}"
+        names.append(f'<li><a href="{esc(href)}">{esc(product["name"])}</a></li>')
+    count = len(category["products"])
+    return f"""<li class="shelf" data-cat="{esc(category['slug'])}">
         <div class="shelf-head">
           {ICONS[category['slug']]}
           <div>
@@ -181,26 +186,42 @@ def render_home(data: dict, tag: str) -> str:
         <p class="summary">{esc(category['summary'])}</p>
         <ul class="names">{''.join(names)}</ul>
       </li>"""
-        )
-    main = f"""    <section class="hero wrap">
-      <p class="kicker">Three shelves. Nothing extra.</p>
-      <h1>Gear that keeps earning its place.</h1>
-      <p class="lede">A small guide to kitchen tools, lake days, and race-weekend gear that still shows up in public roundups and in long owner records. Open the Amazon page for the size, the color, and whatever it costs today.</p>
-      <p class="checked">Listings checked {esc(data['checked'])}.</p>
+
+
+def render_home(data: dict, tag: str) -> str:
+    categories = data["categories"]
+    primary = [c for c in categories if c.get("group") != "secondary"]
+    secondary = [c for c in categories if c.get("group") == "secondary"]
+    main = f"""    <div class="checker" aria-hidden="true"></div>
+    <section class="hero-band">
+      <div class="hero wrap">
+        <p class="kicker">NASCAR first</p>
+        <h1>The race weekend, from the scanner to the camera.</h1>
+        <p class="lede">A short list for a NASCAR link in bio: what to listen on, what to put on a shelf, what to sit on, a camera for the drive, and the kit for filming it. Kitchen and lake gear sit below the racing shelves. Open the Amazon page for the size, the color, and whatever it costs today.</p>
+        <p class="checked">Listings checked {esc(data['checked'])}.</p>
+      </div>
+    </section>
+    <div class="checker" aria-hidden="true"></div>
+    <ol class="shelves wrap">
+      {''.join(shelf_html(c) for c in primary)}
+    </ol>
+    <section class="also wrap">
+      <h2>Also on the shelf</h2>
+      <p>Kitchen tools and lake gear, for the weeks that are not a race weekend.</p>
     </section>
     <ol class="shelves wrap">
-      {''.join(shelves)}
+      {''.join(shelf_html(c) for c in secondary)}
     </ol>
     <section class="method wrap">
       <h2>How these lists are chosen</h2>
-      <p>Each pick was still for sale on Amazon when this list was checked, and each one has a public track record: a test-kitchen or outdoor roundup, a long owner record, or both. The notes are our words. Prices and scores change, so they are not printed here.</p>
+      <p>Each pick was still for sale on Amazon when this list was checked. Scanners, cameras, and kitchen tools are here because they have a long public record. Die-cast cars are the official Lionel replicas of a specific scheme, and those listings turn over fast, so read the driver and the year. The notes are our words. Prices and scores are not printed here.</p>
     </section>"""
     return shell(
         title="Best Picks",
-        description="A small static guide to kitchen tools, lake-day gear, and race-weekend equipment, with direct Amazon links.",
+        description="NASCAR-first picks for scanners, diecast, fan gear, dash cams, and creator gear, with a kitchen shelf and a lake shelf.",
         canonical=f"{SITE_ORIGIN}/",
         prefix="",
-        body_attr="",
+        body_attr=' data-group="primary"',
         nav_html=nav(None, categories, ""),
         main=main,
     )
@@ -220,8 +241,11 @@ def render_category(data: dict, category: dict, tag: str) -> str:
       </article>
     </li>"""
         )
-    main = f"""    <header class="page-head wrap">
-      <p class="kicker">Best Picks</p>
+    kicker = "NASCAR" if category.get("group") != "secondary" else "Also on the shelf"
+    group = category.get("group") or "primary"
+    main = f"""    <div class="checker" aria-hidden="true"></div>
+    <header class="page-head wrap">
+      <p class="kicker">{esc(kicker)}</p>
       <h1>{esc(category['name'])}</h1>
       <p class="intro">{esc(category['intro'])}</p>
     </header>
@@ -233,7 +257,7 @@ def render_category(data: dict, category: dict, tag: str) -> str:
         description=category["summary"],
         canonical=f"{SITE_ORIGIN}/{category['slug']}/",
         prefix="../",
-        body_attr=f' data-cat="{esc(category["slug"])}"',
+        body_attr=f' data-cat="{esc(category["slug"])}" data-group="{esc(group)}"',
         nav_html=nav(category["slug"], data["categories"], "../"),
         main=main,
     )

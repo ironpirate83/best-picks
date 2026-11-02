@@ -1,10 +1,202 @@
 {
   "siteName": "Best Picks",
-  "checked": "October 31, 2026",
+  "checked": "November 2, 2026",
   "categories": [
+    {
+      "slug": "scanners",
+      "name": "Race Scanners & Headsets",
+      "navLabel": "Scanners",
+      "group": "primary",
+      "summary": "A radio for the teams, a longer whip, and something over your ears when the field fires.",
+      "intro": "Listen to the race, then keep your hearing. The scanner is analog, the antenna has to match the connector, and a headset only helps if the plug fits the radio you already own.",
+      "products": [
+        {
+          "brand": "Uniden",
+          "name": "Bearcat BC125AT Handheld Scanner",
+          "asin": "B00772MR0K",
+          "blurb": "The BC125AT is the handheld scanner fans program for a race weekend: 500 named channels, a racing search, and Close Call for a nearby transmitter. It is analog only, so you still need that event's frequency list, and it will not decode digital public-safety systems.",
+          "note": "Uniden BC125AT. Add to cart when checked November 2, 2026, short supply. Analog limitation is on the listing."
+        },
+        {
+          "brand": "Walker's",
+          "name": "Razor Slim Electronic Muffs",
+          "asin": "B0CD6ZRR96",
+          "blurb": "The Razor Slim is the low-profile electronic muff people wear when a full racing headset is more than they want. This page is one finish of that muff, so check the color, and it runs on the AAA cells in the box.",
+          "note": "Walker's Razor Slim, Let Freedom Ring colorway from the live title. Add to cart when checked. Very large shared owner record for the Razor Slim line."
+        },
+        {
+          "brand": "Rugged Radios",
+          "name": "H80 Linkable Behind-the-Head Headset",
+          "asin": "B09TV9MRK2",
+          "blurb": "The H80 is a behind-the-head headset built to plug into a scanner or a race receiver, with gel seals and a link so a second headset can share one radio. Match the plug to the radio you already own, because this is track gear rather than a music headphone.",
+          "note": "Rugged Radios H80. Live title says it connects to NASCAR scanners and Nitro Bee receivers. In stock when checked."
+        },
+        {
+          "brand": "Diamond Antenna",
+          "name": "RH77CA Handheld Scanner Antenna, BNC",
+          "asin": "B00M1X73EA",
+          "blurb": "The RH77CA is the BNC whip scanner owners swap onto a Bearcat when the stock rubber duck is too short for a big track. Confirm the connector is BNC, because Diamond also sells an SMA antenna that will not screw onto the BC125AT.",
+          "note": "Live title specifies BNC. Add to cart, short supply, when checked."
+        }
+      ]
+    },
+    {
+      "slug": "diecast",
+      "name": "Diecast",
+      "navLabel": "Diecast",
+      "group": "primary",
+      "summary": "Official Lionel replicas of specific cars. Read the driver, the year, and the scale.",
+      "intro": "These are Lionel Racing die-cast cars, officially licensed, and each paint scheme is its own listing. They turn over fast, so the page has to match the car you think you are buying.",
+      "products": [
+        {
+          "brand": "Lionel Racing",
+          "name": "Joey Logano 2024 Phoenix Championship 1:64",
+          "asin": "B0FHMT772M",
+          "blurb": "This is Lionel's 1:64 of Joey Logano's 22 Shell Ford from the 2024 Phoenix finale, the race where he won his third Cup title. Each paint scheme is its own listing, so read the driver and the year before you buy.",
+          "note": "ARC HT 1:64 race-win diecast. Add to cart when checked. Modest owner record, which is normal for a single scheme."
+        },
+        {
+          "brand": "Lionel Racing",
+          "name": "Kyle Larson 2024 Las Vegas Win 1:64",
+          "asin": "B0DN85M9MV",
+          "blurb": "Lionel's 1:64 of Kyle Larson's 2024 Las Vegas win is the Hendrick car from that weekend, officially licensed, with a die-cast body. Treat it as a display piece for that race.",
+          "note": "Add to cart when checked."
+        },
+        {
+          "brand": "Lionel Racing",
+          "name": "Chase Elliott 2025 LLumar 1:64",
+          "asin": "B0FFK969J9",
+          "blurb": "The 2025 LLumar Chevrolet is Chase Elliott's Lionel 1:64 for that scheme: a die-cast body, a window net, and hand-applied decals. Confirm you want LLumar and not one of his other cars.",
+          "note": "Add to cart when checked. Short owner record on this scheme."
+        },
+        {
+          "brand": "Lionel Racing",
+          "name": "Jimmie Johnson Diecast Cars",
+          "asin": "B08RGXMJHR",
+          "blurb": "This Lionel page groups Jimmie Johnson's die-cast cars, so the scheme and the scale are not a single fixed item. Open it and confirm the paint and whether you are looking at a 1:64 or a 1:24 before you order.",
+          "note": "Live title is the grouped Jimmie Johnson diecast page. Add to cart when checked. Longer owner record than a single current scheme."
+        }
+      ]
+    },
+    {
+      "slug": "fan-gear",
+      "name": "Team Merch & Fan Gear",
+      "navLabel": "Fan Gear",
+      "group": "primary",
+      "summary": "A seat that locks to the bench, a flag, glass for the back straight, and muffs.",
+      "intro": "Amazon's licensed team apparel turns over and runs thin, so this shelf is the grandstand kit people actually carry in: a chair, a flag, binoculars, and hearing protection.",
+      "products": [
+        {
+          "brand": "SPORT BEATS",
+          "name": "Stadium Seat with Back Support",
+          "asin": "B0D78WSRHX",
+          "blurb": "A long Cup race on an aluminum bench is a back problem. This is a padded bleacher chair with hooks meant to catch the plank so it does not tip when the place stands up, and it is a universal stadium seat rather than a team-licensed chair.",
+          "note": "Large owner record. In stock when checked. Not NASCAR-licensed."
+        },
+        {
+          "brand": "Flags Importer",
+          "name": "Checkered Racing Flag, 3 by 5 Feet",
+          "asin": "B002OSJE4Y",
+          "blurb": "A 3-by-5-foot checkered flag, polyester, with grommets, for a garage wall or a tailgate. It is a racing flag, not an officially licensed NASCAR banner, and a real wind will fold a flag this light.",
+          "note": "In stock when checked."
+        },
+        {
+          "brand": "Celestron",
+          "name": "Outland X 10x42 Binoculars",
+          "asin": "B004P1IMFA",
+          "blurb": "The Outland X 10x42 is the rubber-armored binocular people bring when the car they care about is on the far side of a mile-and-a-half track. They are waterproof, and they are not a spotting scope, so do not expect to read a lug nut.",
+          "note": "US listing title confirmed. Add to cart when checked. Large owner record."
+        },
+        {
+          "brand": "Howard Leight",
+          "name": "Impact Sport Earmuffs, Real Blue",
+          "asin": "B071JB9HFF",
+          "blurb": "A short track will ring your ears if you stand there unprotected. The Impact Sport muffs clamp the peaks and let you turn conversation, or a scanner cable, back up to a level you can hear, and this page is the Real Blue pair.",
+          "note": "Impact Sport, Real Blue. In stock when checked. Very large owner record."
+        }
+      ]
+    },
+    {
+      "slug": "dashcams",
+      "name": "Dashcams",
+      "navLabel": "Dashcams",
+      "group": "primary",
+      "summary": "A camera for the tow vehicle and the drive home.",
+      "intro": "Front, rear, or a tiny one-piece. The memory card and the hardwire kit for parking mode are not always in the box, so read the package list before you count on either.",
+      "products": [
+        {
+          "brand": "VIOFO",
+          "name": "A229 Pro Front and Rear Dash Cam",
+          "asin": "B0CKYFSKNN",
+          "blurb": "Wirecutter's current top dash cam is the Viofo A229 Pro, a front-and-rear pair with 4K up front and a supercapacitor instead of a battery that hates a closed car in July. The memory card and the hardwire kit for parking mode are separate.",
+          "note": "Wirecutter top pick as of October 2026. In stock when checked."
+        },
+        {
+          "brand": "VIOFO",
+          "name": "A119 Mini 2 Front Dash Cam",
+          "asin": "B0C5MVB7NX",
+          "blurb": "The A119 Mini 2 is Viofo's small front-only camera: 2K, a supercapacitor, and a body you can hide behind the mirror. It does not include a rear camera or a memory card.",
+          "note": "In stock when checked."
+        },
+        {
+          "brand": "Garmin",
+          "name": "Dash Cam Mini 3",
+          "asin": "B0DDTCNLG7",
+          "blurb": "The Dash Cam Mini 3 is the tiny Garmin, about the size of a key fob, for people who want 1080p and voice control without a screen hanging off the glass. It is a front camera only, and supply was short when this list was checked.",
+          "note": "Add to cart, only a few left, when checked."
+        },
+        {
+          "brand": "REDTIGER",
+          "name": "F7NP 4K Front and Rear Dash Cam",
+          "asin": "B098WVKF19",
+          "blurb": "The F7NP is the front-and-rear Redtiger a lot of people buy because a memory card is already in the box. Parking mode still wants a hardwire kit, and a dual cam like this is a compromise next to the Viofo if night plates matter.",
+          "note": "Add to cart when checked. Very large owner record. Card included per the listing."
+        }
+      ]
+    },
+    {
+      "slug": "creator-gear",
+      "name": "Creator Gear",
+      "navLabel": "Creator",
+      "group": "primary",
+      "summary": "A mic, a light, a capture dongle, and a phone rig for filming the weekend.",
+      "intro": "Gear for a NASCAR YouTube or X desk: talk into something better than a laptop mic, light your face, and get a phone or a camera into the shot. None of this replaces a scanner at the track.",
+      "products": [
+        {
+          "brand": "FIFINE",
+          "name": "K669 USB Microphone, Green",
+          "asin": "B0923VKSWQ",
+          "blurb": "The K669 is a plug-in USB mic with a gain knob and a little desk stand, and this listing is the green one. It wants a quiet room, and it will not help you talk over cars in the garage.",
+          "note": "In stock when checked. Very large owner record."
+        },
+        {
+          "brand": "NEEWER",
+          "name": "660 Bi-Color LED Video Light",
+          "asin": "B07QZ369SL",
+          "blurb": "The 660 is a bi-color LED panel for a face on camera, with knobs for brightness and warmth and an AC adapter in the box. Camera batteries are not included, and it stays a hard panel until you use the diffuser.",
+          "note": "Add to cart when checked."
+        },
+        {
+          "brand": "Elgato",
+          "name": "Cam Link 4K",
+          "asin": "B07K3FN5MR",
+          "blurb": "The Cam Link 4K turns a camera with a clean HDMI output into a webcam for a stream or a call, at 1080p60 or 4K if the camera can send it. It does not add a microphone, and a phone needs the right HDMI adapter before this dongle will see it.",
+          "note": "In stock when checked. Very large owner record."
+        },
+        {
+          "brand": "ULANZI",
+          "name": "MT-44 Phone Tripod",
+          "asin": "B09T92NK4J",
+          "blurb": "The MT-44 is a phone tripod that opens out to a tall stick, with a clip and a cold shoe so a small mic or light can ride along. It is the rig for filming a paddock walk on a phone, and it is not a support for a heavy camera.",
+          "note": "Add to cart when checked. Large owner record."
+        }
+      ]
+    },
     {
       "slug": "home-kitchen",
       "name": "Home & Kitchen",
+      "navLabel": "Kitchen",
+      "group": "secondary",
       "summary": "Cookware and a few tools that serious kitchen roundups keep coming back to.",
       "intro": "A short kitchen shelf: two Lodge pots, a straightforward multi-cooker, and the hand tools that earn a drawer. Nothing here is a gadget for its own sake.",
       "products": [
@@ -13,55 +205,57 @@
           "name": "Pre-Seasoned Cast Iron Skillet, 10.25 Inches",
           "asin": "B00006JSUA",
           "blurb": "The 10.25-inch Lodge is the plain pre-seasoned skillet people actually cook in: it sears, it goes in the oven, and it is happy over a campfire. It is heavy, it wants a little fat in the pan, and the seasoning improves if you keep using it.",
-          "note": "Classic Lodge L8SK3. Large long-running owner record. Sold by Amazon and in stock when checked."
+          "note": "Classic Lodge skillet. In stock when rechecked November 2, 2026."
         },
         {
           "brand": "Lodge",
           "name": "Essential Enamel Cast Iron Dutch Oven, 6 Quart, Lagoon",
           "asin": "B013FDOXJC",
           "blurb": "Wirecutter has kept a Lodge 6-quart enameled Dutch oven as its top braiser for years, and the enamel lets you cook tomato sauce without maintaining bare iron. This page is the Lagoon color of that pot.",
-          "note": "Wirecutter top-pick Dutch oven since 2015; still listed as the top pick in later Wirecutter kitchen roundups. Lagoon color was in stock when checked."
+          "note": "Wirecutter top-pick Dutch oven. Lagoon in stock when rechecked."
         },
         {
           "brand": "Instant Pot",
           "name": "Rio 6-Quart 7-in-1 Electric Pressure Cooker",
           "asin": "B0B4PQDFCL",
           "blurb": "Wirecutter's current multi-cooker pick is the Instant Pot Rio in the 6-quart size: pressure, slow cook, sauté, steam, rice, yogurt, and keep-warm. It is the straightforward model, and the inner pot and lid go in the dishwasher.",
-          "note": "Wirecutter electric pressure cooker pick, updated February 2026. Black 6-quart, in stock, sold by Amazon when checked."
+          "note": "Wirecutter pick. Add to cart when rechecked."
         },
         {
           "brand": "OXO",
           "name": "Good Grips Swivel Peeler",
           "asin": "B00004OCIP",
           "blurb": "The OXO swivel peeler is the small tool that keeps winning kitchen roundups: a soft handle, twin blades that follow a curve, and a tip for digging out potato eyes. It is the peeler you stop replacing.",
-          "note": "Long-running OXO Good Grips swivel peeler listing with a very large owner record. In stock when checked."
+          "note": "Add to cart when rechecked."
         },
         {
           "brand": "Victorinox",
           "name": "Fibrox Pro Chef's Knife, 8 Inch",
           "asin": "B000638D32",
           "blurb": "The Fibrox 8-inch is a long-running best-buy chef's knife: it arrives sharp, and the handle stays put when your hand is wet. Wash it by hand if you want that edge to last.",
-          "note": "Victorinox Fibrox Pro 8-inch, Swiss-made working knife. In stock when checked. Not claimed as any one outlet's 2026 top pick."
+          "note": "Add to cart when rechecked."
         },
         {
           "brand": "Microplane",
           "name": "Premium Classic Series Zester, Black",
           "asin": "B00151WA06",
           "blurb": "The long Microplane zester is the one people buy for lemon zest and then use on Parmesan, garlic, ginger, and nutmeg. The etched blade makes fine shreds instead of the wet pulp a box grater leaves behind.",
-          "note": "Microplane Premium Classic 46020. Very large owner record. In stock when checked."
+          "note": "Add to cart when rechecked."
         },
         {
           "brand": "OXO",
           "name": "Good Grips Salad Spinner, 6.22 Quart",
           "asin": "B00004OCKR",
           "blurb": "OXO's pump salad spinner is the large one that has owned this category: one hand on the button, a brake so the basket stops, and a bowl big enough to serve from. Dry leaves are the point, because dressing slides off wet lettuce.",
-          "note": "OXO Good Grips large salad spinner, a long-running category leader. In stock when checked."
+          "note": "Long-running category leader."
         }
       ]
     },
     {
       "slug": "outdoor-lake",
       "name": "Outdoor & Lake",
+      "navLabel": "Lake",
+      "group": "secondary",
       "summary": "A vest you will actually wear, a dry bag, and the rest of a lake or camp day.",
       "intro": "Boating, a paddle, and a night on shore. Confirm the size, the Coast Guard label, and the tent capacity on the product page before you trust any of this on the water.",
       "products": [
@@ -70,92 +264,42 @@
           "name": "MoveVent Dynamic Paddle Vest",
           "asin": "B00FI3FAZ4",
           "blurb": "The MoveVent is the paddling vest lake-day lists keep naming, with mesh that clears a kayak seat and U.S. Coast Guard approval. This page is one size and color of a Type III vest, so match the chest chart, and do not use it for high-speed towing.",
-          "note": "USCG and Transport Canada approved MoveVent Dynamic. In stock when checked. Specific size and color are on the listing."
+          "note": "USCG approved MoveVent Dynamic."
         },
         {
           "brand": "Earth Pak",
           "name": "20L Waterproof Dry Bag",
           "asin": "B01GZCUDC6",
           "blurb": "Wirecutter included this Earth Pak 20-liter roll-top among its dry bags: thick 500D material, a shoulder strap, and a phone case in the box. Roll the mouth down at least three times; it is for spray and a splash, not for diving.",
-          "note": "Earth Pak roll-top. Amazon listing cites a 2024 Wirecutter dry-bag mention. In stock when checked."
+          "note": "Add to cart when rechecked."
         },
         {
           "brand": "OutdoorMaster",
           "name": "Shark 2 High-Pressure SUP Pump",
           "asin": "B0819RTT4P",
           "blurb": "The Shark 2 is the 12-volt pump a lot of inflatable-board owners switch to after the hand pump wears them out, and it shuts off at the pressure you set. It plugs into a car outlet and it is loud, so run it in the parking lot.",
-          "note": "OutdoorMaster Shark 2 / OP20, 20 PSI, 12V DC. Widely reviewed by paddle-board testers. In stock when checked."
+          "note": "Add to cart when rechecked."
         },
         {
           "brand": "Black Diamond",
           "name": "Spot 400 Headlamp",
           "asin": "B09NQK1TWR",
           "blurb": "The Spot 400 is Black Diamond's compact camp headlamp, with a white beam, a red night mode, and a waterproof body that runs on the AAA cells in the box. Pack spare batteries for anything longer than a weekend.",
-          "note": "Spot 400, Octane color. IPX8 per the listing. In stock, limited quantity, when checked."
+          "note": "Add to cart, limited quantity, when rechecked."
         },
         {
           "brand": "Coleman",
           "name": "Sundome Camping Tent",
           "asin": "B0D7QHY574",
           "blurb": "The Sundome is Coleman's basic dome for a first campsite or a festival field: a rainfly, windows, and pole sleeves that do not fight you. The listing covers more than one capacity, so confirm the person count, and treat it as fair-weather shelter rather than a four-season tent.",
-          "note": "Coleman Sundome family listing with size options. In stock when checked. Blurb tells the buyer to confirm capacity."
+          "note": "Add to cart when rechecked. Size options on the listing."
         },
         {
           "brand": "RTIC",
           "name": "30-Can Ultra-Tough Soft Cooler, Black",
           "asin": "B08P9VJPJK",
           "blurb": "RTIC's 30-can soft cooler is the lake bag that is built to float and zip shut, so a tippy canoe does not automatically donate lunch to the water. It is easier to carry down a dock than a hard cooler, and it is not a week-long ice bunker.",
-          "note": "RTIC Ultra-Tough 30-can, black, in stock when checked. Leakproof zipper and float are listing claims, not a timed ice test by this site."
-        }
-      ]
-    },
-    {
-      "slug": "racing-gear",
-      "name": "Racing Gear",
-      "summary": "A scanner and hearing protection for the grandstand, plus the garage tools that hold the car up.",
-      "intro": "NASCAR weekend gear and the motorsport-adjacent stuff that lives in the garage: a way to hear the teams, a way to keep your hearing, a small Formula 1 build, and the jack, stands, and wrench for work at home.",
-      "products": [
-        {
-          "brand": "Uniden",
-          "name": "Bearcat BC125AT Handheld Scanner",
-          "asin": "B00772MR0K",
-          "blurb": "The BC125AT is the handheld scanner fans program for a race weekend: 500 named channels, a racing search, and Close Call for a nearby transmitter. It is analog only, so you still need that event's frequency list, and it will not decode digital public-safety systems.",
-          "note": "Uniden BC125AT, a long-running racing and analog scanner, in stock when checked. Analog limitation is stated on the listing."
-        },
-        {
-          "brand": "Howard Leight",
-          "name": "Impact Sport Sound Amplification Earmuffs, Real Blue",
-          "asin": "B071JB9HFF",
-          "blurb": "A short track will ring your ears if you stand there unprotected. The Impact Sport muffs clamp the peaks and let you turn conversation, or a scanner cable, back up to a level you can hear, and this page is the Real Blue pair.",
-          "note": "Howard Leight by Honeywell Impact Sport, Real Blue. Very large owner record. In stock when checked."
-        },
-        {
-          "brand": "LEGO",
-          "name": "Speed Champions Oracle Red Bull Racing RB20 (77243)",
-          "asin": "B0DHLFGNMM",
-          "blurb": "Set 77243 is LEGO's adult build of the 2024 Oracle Red Bull RB20: halo, rear wing, a driver minifigure, and 251 pieces. It is a shelf model for a motorsport fan, not a car that drives.",
-          "note": "LEGO Speed Champions 77243. Strong recent owner record and a best-seller in fan vehicles when researched. In stock when checked."
-        },
-        {
-          "brand": "BIG RED",
-          "name": "3-Ton Hydraulic Floor Jack, Tall Saddle",
-          "asin": "B0028JW4PU",
-          "blurb": "This tall-saddle 3-ton BIG RED jack is aimed at SUVs and trucks, with a bypass meant to stop a lift past its rating. A jack raises the vehicle and does not hold it, so the car still needs stands on level ground.",
-          "note": "BIG RED / Torin T83006-style trolley jack for taller vehicles. In stock when checked. Model name on the live title emphasizes the extra saddle and SUV/truck fit."
-        },
-        {
-          "brand": "EPAuto",
-          "name": "1/2-Inch Drive Click Torque Wrench, 10–150 ft-lb",
-          "asin": "B01M1D17AW",
-          "blurb": "This 1/2-inch click wrench is what home garages use when lug nuts have a real number: set the scale, pull smoothly, and stop when it clicks. Store it at the lowest setting so the spring is not left loaded.",
-          "note": "EPAuto 1/2-inch 10-150 ft-lb click wrench. Very large owner record. In stock when checked."
-        },
-        {
-          "brand": "BIG RED",
-          "name": "T43202 3-Ton Steel Jack Stands, Pair",
-          "asin": "B01LVYW116",
-          "blurb": "These 3-ton steel stands are what you put under a car after the jack has lifted it, sold as a pair with a ratchet column. The listing says they are not for SUVs and trucks, so match them to the vehicle and use them on level ground at a rated lift point.",
-          "note": "BIG RED T43202 pair. Large owner record. In stock when checked. Listing excludes SUVs and trucks; the blurb says so."
+          "note": "In stock when rechecked."
         }
       ]
     }
